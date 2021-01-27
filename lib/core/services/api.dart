@@ -1,7 +1,7 @@
 //complete
 import 'dart:convert';
 
-import 'package:mobile_account_app/core/enums/user_data.dart';
+
 import 'package:mobile_account_app/core/models/account.dart';
 import 'package:http/http.dart' as http;
 
@@ -45,8 +45,6 @@ class Api {
     return Account.fromJson(json.decode(res.body));
 
   }
-
-  
 
   
 }
